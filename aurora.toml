@@ -1,14 +1,8 @@
-servers = []
-listen = "0.0.0.0:11301"
-version = 2.1
+servers = ["host.docker.internal:11300"]
+listen = "0.0.0.0:3000"
 
 [openpage]
-enabled = true
-
-[auth]
-enabled = true
-password = "password"
-username = "admin"
+enabled = false
 
 [sample]
 storage = "{}"
